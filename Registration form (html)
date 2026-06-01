@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h1>Registration Form</h1>
+        <table>
+            <tr>
+                <td>name:</td>
+                <td><input type="text" placeholder="Type your name..."></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" placeholder="type your age here"></td>
+            </tr>
+            <tr>
+                <td>Gender</td>
+                <td><input type="radio" name="gender">Female
+                <input type="radio" name="gender" >Male</td>
+
+            </tr>
+            <tr>
+                <td>
+                    Email:
+                </td>
+                <td><input type="email" placeholder="enter your email"></td>
+            </tr>
+            <tr>
+                <td>Select a course</td>
+                <td>
+                    <select>
+                        <option>python</option>
+                        <option >java</option>
+                        <option >c++</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Upload your Resume
+                </td>
+                <td><input type="file" name="resume upload"></td>
+            </tr>
+        </table>
+    </center>
+    
+</body>
+</html>
